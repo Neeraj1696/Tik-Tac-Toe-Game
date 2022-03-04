@@ -1,0 +1,53 @@
+.cell {
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: aqua;
+  margin: 20px;
+  font-size: 49px;
+  text-align: center;
+}
+.box {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+}
+button {
+  margin-top: 25px;
+  font-size: 20px;
+  margin-left: 710px;
+  border-radius: 20px;
+  background-color: rgb(73, 192, 83);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+  background-image: url(https://c8.alamy.com/comp/J0KM0P/tic-tac-toe-game-on-wooden-background-J0KM0P.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#message {
+  font-size: 50px;
+  font: bold;
+  color: rgb(253, 125, 6);
+  text-align: center;
+  margin-top: 25px;
+}
+.heading {
+  margin: 25px;
+  text-align: center;
+  background-color: rgb(123, 82, 197);
+  padding: 10px;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 25px;
+}
+.currentTurn-x {
+  size: 50px;
+}

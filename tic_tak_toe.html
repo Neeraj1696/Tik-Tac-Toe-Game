@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="tic_tak_toe.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      href="https://cdn-icons-png.flaticon.com/512/566/566294.png"
+    />
+    <title>Tic Tak Toe Game || PLAY GAME HERE</title>
+  </head>
+  <body>
+    <h1 class="heading">LETS PLAY TIK TAK TOE GAME</h1>
+    <div class="box">
+      <div style="display: flex">
+        <div class="cell" id="1" onclick="play(1)"></div>
+        <div class="cell" id="2" onclick="play(2)"></div>
+        <div class="cell" id="3" onclick="play(3)"></div>
+      </div>
+      <div style="display: flex">
+        <div class="cell" id="4" onclick="play(4)"></div>
+        <div class="cell" id="5" onclick="play(5)"></div>
+        <div class="cell" id="6" onclick="play(6)"></div>
+      </div>
+      <div style="display: flex">
+        <div class="cell" id="7" onclick="play(7)"></div>
+        <div class="cell" id="8" onclick="play(8)"></div>
+        <div class="cell" id="9" onclick="play(9)"></div>
+      </div>
+    </div>
+
+    <button onclick="reset()">Play again</button>
+    <div id="message"></div>
+    <script src="tic_tak_toe.js"></script>
+  </body>
+</html>
